@@ -100,8 +100,6 @@ The second edition of PHPVibe 3.6 fixes a few issues and adds some useful things
 ## PHPVibe 4 (2015)
 Built as an improvement of 3.6 this version of the CMS brings full control over FFMPEG, carousel blocks on the homepage, full static caching, plugin support, bugfixes, and much more!
 
-## PHPVibe v4
-PHPVibe v4
 
 ##  PHPVibe 5 (2016)
 PHPVibe v5, everything has changed for the better! A full remake of the cms.
