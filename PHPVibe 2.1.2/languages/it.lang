@@ -1,0 +1,149 @@
+<?php
+
+	/* Italian language configuration */
+
+	 $lang = array (
+
+	 	/* SEO / Titolo della Pagina & Descriptions */
+		
+		/* Homepage */
+	 	'home-title' => "phpVibe @ VideoInedit.com",
+		'home-desc' => "Il posto ideale per i migliori video",
+		
+		/* Search page */
+		
+		'show-pre-title' => "Cerca Video",
+		'show-aft-title' => " - Video Migliori",
+        'show-desc' => "I migliori video li trovi solo qui",
+
+		/* Video page */
+		
+		'video-aft-title' => " - Qualità Migliore",
+
+		/* User profile */
+		
+		'user-aft-title' => " - Profilo @ phpVibe!",
+		
+	 	/* Members page */
+		
+		'members-title' => " Lista degli iscritti",
+		
+		/* Sidebar */
+		
+		'fb-page-link' => "http://www.facebook.com/videosoft",
+		'fb-page-connect' => "Connettiti Tramite Facebook",
+		'fb-page-desc' => "Diventa un Nostro Fans",
+        'tw-page-link' => "http://twitter.com/Marius_SEO",
+        'tw-page-connect' => "Seguici con Twitter",
+        'tw-page-desc' => "Ci puoi martellare di richieste :)",
+		'rss-page-connect' => "Iscriviti agli RSS Feed",
+		'rss-page-desc' => "Vedi i video recenti sulla tua E-Mail!",
+     
+	 
+	   /* Video page*/
+	   
+	   'embed' => "Incorpora Video",
+	   'like' => "Piace",
+	   'repeat' => "Ripeti",
+	   'videscription' => "Descrizione Video",
+	   'vitags' => "Tag Correlati",
+	   'userscom' => "Commenti Utenti",
+	   'guestcom' => "Commenti Ospiti",
+
+       /* Profile page*/
+	   
+	   'addf' => "Aggiungi come Amico",
+	   'addf0' => "E' Già un Amico",
+	   'aboutme' => "Su di noi",
+	   'wall' => "Lista",
+	    'website' => "Sito Web Personale",
+	   'friends' => "Amici",
+	   'videos' => "Video",
+	   'likes' => "Piaciuti",
+	   'rname' => "Nome",
+	   'dname' => "Visualizza Nome",
+	   'membersince' => "Iscritto dal",
+	   'ccity' => "Città in cui Vivi",
+	   'fromcity' => "Da",
+	   'gender' => "Sesso",
+	   'birthdate' => "Data di Nascita",
+	   'laston' => "Ultima conessione",
+	   'relation' => "Stato del Rapporto",
+	   'favquote' => "Citazione Preferita",
+	   'favmusic' => "Musica che preferisco",
+	   'favmovies' => "Video che preferisco",
+	   'favtv' => "Spettacoli TV che preferisco",
+	   'status-share' => "Condividi un Video o uno Stato",
+	   'uinfo' => "Informazioni Personali",
+	   'friend-req' => "Richieste di amicizia",
+	   'no-friend-req' => "Nessuna richiesta di amicizia. Forse dovresti essere più attivo ;)",
+	   'v-likes' => "Lista Video",
+	   'liked' => "piaciuti",
+	   
+	   
+	   
+	   
+	   
+	   
+    /*  Common shared Language Settings  */
+	'home' => "Home",
+    'members' => "Iscritti",
+	'my-likes' => "My Likes",
+	'messages' => "Messaggi",
+	'inbox' => "In Arrivo",
+	'outbox' => "In Uscita",
+	'drafts' => "Bozze",
+	'most-liked' => "Più Gettonati",
+	'most-viewed' => "Più Visti",
+	'shared-videos' => "Video Condivisi",
+    'suggestions' => "Suggerimenti",
+	'most-searched' => "Più Cercati",
+	'trending-searches' => "Di Tendenza",
+	'random' => "Casuali",
+	'my-profile' => "Dati personali",
+	'view-profile' => "Vedi Dati Personali",
+    'edit-profile' => "Modifica Dati Personali",
+	'login' => "Entrata",
+	'twlog' => "Entra con Twitter",
+	'fblog' => "Entra con Facebook",
+	'register' => "Registrati",
+	'shared' => "Condivisi",
+	'topviews' => "Più Visti",
+	'liked' => "Liked",
+	'reg-title' => "Nuova Iscrizione",
+	'reg-sub' => "E' Semplice e veloce",
+	'login-sub' => "..divertente.",
+    'createacc' => "Iscriviti",
+	'fastway' => "O scegli una via veloce",
+	'search-desc' => "per cercare i video, scrivi un nome e clicca su invia",
+ 
+	/*  Comments Language Settings  */
+    'view'           => "Vedi Tutto",
+    'view2'          => "commenti",
+    'name'           => "Nome",
+    'enterName'      => "Inserisci il Nome",
+    'mail'           => "E-Mail",
+    'enterMail'      => "Inserisci E-Mail",
+    'enterComment'   => "Aggiungi un Commento",
+    'comment'        => "Commento",
+    'hide'           => "Nascondi Tutto",
+    
+    'ilike'          => "Questo Commento mi Piace",
+    'youlikethis'    => "A te piace questo commento",
+    'youandone'      => "A te e ad  1 altra persona piace",
+    'youandxx'       => "A te e ad altre XXX persone piace",
+    'onelikes'       => "1 persona piace",
+    'xxlikethis'     => "XXX persone piace",
+    
+    'cid'            => "Il Commento",
+    'wassuc'         => "E' stato",
+    'deleted'        => "eliminato",
+    'moderated'      => "moderato",
+		
+	  	/* Select Language */
+	  	'select-language' =>  "Seleziona Lingua",
+	  	'pt' => "Portuguese",
+	  	'en' => "English",
+		'it' => "Italiano",
+	 );
+?>

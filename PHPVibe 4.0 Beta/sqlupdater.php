@@ -1,0 +1,32 @@
+<?php  error_reporting(E_ALL); 
+//Vital file include
+require_once("load.php");
+$db->query("ALTER TABLE  `".DB_PREFIX."homepage` ADD  `car` INT NOT NULL DEFAULT  '0'");
+echo "Homepage table updated...<br>";
+$db->query("ALTER TABLE  `".DB_PREFIX."em_comments` CHANGE  `admin_reply`  `reply` INT NOT NULL DEFAULT  '0'");
+$db->query("update `".DB_PREFIX."em_comments` set reply = '0'");
+echo "Comments table updated...<br>";
+$db->query("ALTER TABLE  `".DB_PREFIX."users` ADD  `lastNoty` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP");
+echo "Users table updated...";
+$db->query("CREATE INDEX TitleSearch ON ".DB_PREFIX."videos (title)");
+$db->query("CREATE INDEX FullSearch ON ".DB_PREFIX."videos (title,tags,description)");
+echo "Search indexes updated...<br>";
+$db->query("alter  table ".DB_PREFIX."playlist_data add index playlist_idx (playlist)");
+$db->query("alter  table ".DB_PREFIX."users_friends add index uid_idx (uid)");
+$db->query("alter  table ".DB_PREFIX."users_friends add index fid_idx (fid)");
+$db->query("alter  table ".DB_PREFIX."ads add index ad_type_idx (ad_type)");
+$db->query("alter  table ".DB_PREFIX."ads add index ad_spot_idx (ad_spot)");
+$db->query("alter  table ".DB_PREFIX."crons add index cron_type_idx (cron_type)");
+$db->query("alter  table ".DB_PREFIX."videos add index views_idx (views)");
+$db->query("alter  table ".DB_PREFIX."videos add index dates_idx (date(50))");
+$db->query("alter  table ".DB_PREFIX."videos add index pub_idx (pub)");
+$db->query("alter  table ".DB_PREFIX."videos add index source_idx (source(300))");
+$db->query("alter  table ".DB_PREFIX."videos add index tmp_source_idx (tmp_source(300))");
+$db->query("alter  table ".DB_PREFIX."users add unique email_uni (email)");
+$db->query("alter  table ".DB_PREFIX."options add unique option_name_uni (option_name)");
+$db->query("alter  table ".DB_PREFIX."likes add unique uid_uni (uid, vid)");
+echo "Performance indexes updated...<br>";
+echo "<pre>";
+$db->debug();
+echo "</pre>";
+?>

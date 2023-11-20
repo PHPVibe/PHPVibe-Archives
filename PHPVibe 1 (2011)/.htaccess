@@ -1,0 +1,24 @@
+RewriteEngine on
+RewriteBase /
+Options +FollowSymLinks -Indexes
+
+RewriteRule ^show/(.*)/page-(.*)/$ video_tags.php?tag=$1&page=$2 [L]
+RewriteRule ^show/(.*)/page-(.*)$ video_tags.php?tag=$1&page=$2 [L]
+RewriteRule ^show/(.*)?$ video_tags.php?tag=$1
+RewriteRule ^browse/page-([^-]*)/$ browse.php?pn=$1 [L]
+RewriteRule ^browse/page-([^-]*)$ browse.php?pn=$1 [L]
+RewriteRule ^browse/ browse.php [L]
+RewriteRule ^liked/page-([^-]*)/$ browse-liked.php?pn=$1 [L]
+RewriteRule ^liked/page-([^-]*)$ browse-liked.php?pn=$1 [L]
+RewriteRule ^liked/ /browse-liked.php [L]
+RewriteRule ^viewed/page-([^-]*)/$ browse-viewed.php?pn=$1 [L]
+RewriteRule ^viewed/page-([^-]*)$ browse-viewed.php?pn=$1 [L]
+RewriteRule ^viewed/ /browse-viewed.php [L]
+RewriteRule ^video/([^/]*)/([^/]*)$ single_video.php?id=$1&title=$2 [L]
+RewriteRule ^video/([^/]*)/([^/]*)/$ single_video.php?id=$1&title=$2 [L]
+RewriteRule ^login/ /login.php [L]
+RewriteRule ^register/ /register.php [L]
+RewriteRule ^category/([^/]*)/([^/]*)/$ channel.php?id=$1&title=$2 [L]
+RewriteRule ^category/([^/]*)/([^/]*)$ channel.php?id=$1&title=$2 [L]
+RewriteRule ^category/([^/]*)/([^/]*)/page-([^/]*)/$ channel.php?id=$1&title=$2&pn=$3 [L]
+RewriteRule ^category/([^/]*)/([^/]*)/page-([^/]*)$ channel.php?id=$1&title=$2&pn=$3 [L]

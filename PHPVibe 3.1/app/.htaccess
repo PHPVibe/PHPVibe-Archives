@@ -1,0 +1,8 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteRule ^config.ini.php$ / [R=301,L]
+</IfModule>
+<Files appconfig.php>
+ order allow,deny
+ deny from all
+</Files> 

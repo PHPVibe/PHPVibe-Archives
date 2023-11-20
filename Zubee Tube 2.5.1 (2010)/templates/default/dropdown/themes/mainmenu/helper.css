@@ -1,0 +1,12 @@
+
+* { margin: 0; padding: 0; }
+cite { float: right; }
+ul.classic { list-style: disc; margin-bottom: 1em; padding-left: 2em; }
+div.section { clear: both; padding-top: 50px; }
+
+.table1 { float: right; margin-bottom: 2em; border: solid 1px #eee; }
+.table1 caption { color: #fff; text-align: center; padding-bottom: 5px; }
+.table1 th, .table1 td { padding: 7px; }
+.table1 th, .table1 thead td { background-color: lightyellow; color: #000; }
+.table1 tbody td { background-color: #fff; color: #000; }
+.table1 tbody th { text-align: right; }

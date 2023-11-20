@@ -1,0 +1,51 @@
+
+.orangeColor {color: #FF9900}
+.greenColor {color: #006600}
+.greyColor {color: #666666}
+
+.centerStuff {
+	text-align: center;
+}
+.boldStuff {
+	font-weight: bold;
+}
+.textsize10 {
+	font-size: 10px;
+}
+.textsize16 {
+	font-size: 16px;
+}
+.formFields {
+	background-color:#E7F3FE;
+	color:#000;
+}
+
+/*--------- Header Buttons Style -------------- */
+.headerBtns{
+	margin-bottom:4px;
+}
+.headerBtns a{
+	background-image:url(images/headerBtnsBG.jpg);
+	border:#999 1px solid;
+	color:#333;
+	text-decoration:none;
+	padding:6px;
+}
+.headerBtns a:link{
+	color:#333;
+}
+.headerBtns a:hover {
+	background-image:url(images/headerBtnsBGover.jpg);
+	border:#666 1px solid;
+	text-decoration:none;
+}
+.headerBtns a:visited {
+	color:#333;
+}
+/*--------- Main Body table styles -------------- */
+.mainBodyTable {
+	background-color:#F2F2F2; 
+	width:900px;
+}
+
+

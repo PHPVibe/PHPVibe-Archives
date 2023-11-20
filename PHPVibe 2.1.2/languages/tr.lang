@@ -1,0 +1,149 @@
+<?php
+
+    /* Turkish language configuration */
+
+     $lang = array (
+
+         /* SEO / Title of Page & Descriptions */
+        
+        /* Homepage */
+         'home-title' => "videobulten.com",
+        'home-desc' => "En iyi videoları izleyin!",
+        
+        /* Search page */
+        
+        'show-pre-title' => "En güzel ",
+        'show-aft-title' => " videosu izle!",
+        'show-desc' => "En güzel videolar sadece burada!",
+
+        /* Video page */
+        
+        'video-aft-title' => " videosu izle!",
+
+        /* User profile */
+        
+        'user-aft-title' => " - Profil Bilgileri",
+        
+         /* Members page */
+        
+        'members-title' => " Üye Listesi!",
+        
+        /* Sidebar */
+        
+        'fb-page-link' => "http://www.facebook.com/videosoft",
+        'fb-page-connect' => "Facebook ile Bağlan",
+        'fb-page-desc' => "Sayfamızı beğenin",
+        'tw-page-link' => "http://twitter.com/Marius_SEO",
+        'tw-page-connect' => "Twitter'dan Takip Edin",
+        'tw-page-desc' => "Gizlice takip edin!",
+        'rss-page-connect' => "RSS Beslemesini Ekleyin",
+        'rss-page-desc' => "Email adresinize en son videolar gelsin!",
+     
+     
+       /* Video page*/
+       
+       'embed' => "Video kodu",
+       'like' => "beğen",
+       'repeat' => "Tekrarla",
+       'videscription' => "Video açıklaması",
+       'vitags' => "İlişkili kelimeler",
+       'userscom' => "Kullanıcı yorumları",
+       'guestcom' => "Ziyaretçi yorumları",
+
+       /* Profile page*/
+       
+       'addf' => "Arkadaş Ekle",
+       'addf0' => "Arkadaşsınız",
+       'aboutme' => "Hakkımda",
+       'wall' => "Duvar",
+        'website' => "Kişisel Site",
+       'friends' => "Arkadaşlar",
+       'videos' => "Videolar",
+       'likes' => "Beğenilenler",
+       'rname' => "İsim",
+       'dname' => "Takma İsim",
+       'membersince' => "Üyelik Zamanı",
+       'ccity' => "Yaşadığı Şehir",
+       'fromcity' => "From",
+       'gender' => "Cinsiyet",
+       'birthdate' => "Doğum Tarihi",
+       'laston' => "Son Giriş",
+       'relation' => "İlişki Durumu",
+       'favquote' => "Favori Lafı",
+       'favmusic' => "Sevdiği Müzikler",
+       'favmovies' => "Beğendiği Filmler",
+       'favtv' => "Sevdiği TV Showları",
+       'status-share' => "Video ya da yazı paylaş",
+       'uinfo' => "Profil bilgileri",
+       'friend-req' => "Arkadaşlık istekleri",
+       'no-friend-req' => "Arkadaşlık isteğin yok. Belki daha aktif olman lazım",
+       'v-likes' => "Video duvarı",
+       'liked' => "beğendi",
+       
+       
+       
+       
+       
+       
+    /*  Common shared Language Settings  */
+    'home' => "Ana Sayfa",
+    'members' => "Üyeler",
+    'my-likes' => "Beğendiklerim",
+    'messages' => "Mesajlar",
+    'inbox' => "Gelen Kutusu",
+    'outbox' => "Giden Kutusu",
+    'drafts' => "Taslaklar",
+    'most-liked' => "En Beğenilenler",
+    'most-viewed' => "En Çok İzlenenler",
+    'shared-videos' => "Paylaşılan Videolar",
+    'suggestions' => "Önerilenler",
+    'most-searched' => "En Çok Aranılanlar",
+    'trending-searches' => "Yükseliştekiler",
+    'random' => "Rasgele",
+    'my-profile' => "Profilim",
+    'view-profile' => "Profili göster",
+    'edit-profile' => "Profili düzenle",
+    'login' => "Giriş",
+    'twlog' => "Twitter ile Giriş",
+    'fblog' => "Facebook ile Giriş",
+    'register' => "Kayıt Ol",
+    'shared' => "Paylaşılanlar",
+    'topviews' => "En Çok İzlenenler",
+    'liked' => "Beğenilenler",
+    'reg-title' => "Yeni hesap oluştur",
+    'reg-sub' => "Çok basit ve ücretsiz.",
+    'login-sub' => "..ve keyfini çıkarın.",
+    'createacc' => "Hesap oluştur",
+    'fastway' => "veya hızlı yolu seçin",
+    'search-desc' => "aradığınız videoyu buraya yazın ve enter'a basın",
+ 
+    /*  Comments Language Settings  */
+    'view'           => "Hepsini göster",
+    'view2'          => "yorumlar",
+    'name'           => "İsim",
+    'enterName'      => "Adınızı girin",
+    'mail'           => "eMail",
+    'enterMail'      => "eMail adresinizi yazın",
+    'enterComment'   => "Yorum Yaz",
+    'comment'        => "Yorum",
+    'hide'           => "Hepsini gizle",
+    
+    'ilike'          => "Bu yorumu beğen",
+    'youlikethis'    => "Bunu beğendin",
+    'youandone'      => "Sen ve bir başka kişi bunu beğendi",
+    'youandxx'       => "Sen ve XXX kişi bunu beğendi",
+    'onelikes'       => "1 kişi bunu beğendi",
+    'xxlikethis'     => "XXX kişi bunu beğendi",
+    
+    'cid'            => "Yorum NO",
+    'wassuc'         => "başarıyla",
+    'deleted'        => "silindi",
+    'moderated'      => "düzenlendi",
+        
+          /* Select Language */
+          'select-language' =>  "Dil seç",
+          'pt' => "Portekizce",
+          'en' => "İngilizce", 
+        'tr' => "Türkçe", 
+     );
+?>

@@ -1,0 +1,236 @@
+@CHARSET "UTF-8";
+
+
+
+.clear{
+
+	clear: both;
+
+	height: 0;
+
+	visibility: hidden;
+
+	display: block;
+
+}
+
+a{
+
+	text-decoration: none;
+
+}
+
+
+
+/******* Taburi *******/
+
+#container{
+
+	width: 100%;
+
+}
+
+#container ul{
+
+	list-style: none;
+
+	list-style-position: outside;
+
+}
+
+#container ul.menu li{
+
+	float: left;
+
+	margin-right: 5px;
+
+	margin-bottom: 1px;
+
+}
+
+#container ul.menu li{
+
+	background: #e62727 url(overlay.png) repeat-x; 
+
+	display: inline-block; 
+
+	padding: 2px 10px 3px; 
+
+	color: #fff; 
+
+	text-decoration: none;
+
+	-moz-border-radius: 6px; 
+
+	-webkit-border-radius: 6px;
+
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+
+	border-bottom: 1px solid rgba(0,0,0,0.25);
+
+	position: relative;
+
+	cursor: pointer;
+
+	font-size: 16px; 
+
+}
+
+#container ul.menu li.active{
+
+	background: #cf2525;
+
+	top: 1px;
+
+	border-bottom: 0;
+
+	color: #FFF;
+
+}
+
+/******* /MENU *******/
+
+/******* CONTENT *******/
+
+.content{
+
+	margin: 0pt auto;
+
+	background: #fff;
+
+	border: 0px solid;
+
+	text-align: left;
+
+	padding: 1px;
+
+	padding-bottom: 10px;
+
+	font-size: 11px;
+
+}
+
+.content h1{
+
+	line-height: 1em;
+
+	vertical-align: middle;
+
+	height: 48px;
+
+	padding: 10px 10px 10px 52px;
+
+	font-size: 32px;
+
+}
+
+/******* /CONTENT *******/
+
+/******* NEWS *******/
+
+.content.ucomments h1{
+
+	background: transparent url(images/ucomments.jpg) no-repeat scroll left top;
+
+}
+
+.content.ucomments{
+
+	display: block;
+
+}
+
+/******* /NEWS *******/
+
+/******* TUTORIALS *******/
+
+.content.utweets h1{
+
+	background: transparent url(images/tuts.jpg) no-repeat scroll left top;
+
+}
+
+.content.utweets{
+
+	display: none;
+
+}
+
+/******* /TUTORIALS *******/
+
+/******* LINKS *******/
+
+.content.videoresp h1{
+
+	background: transparent url(images/videoresp.jpg) no-repeat scroll left top;
+
+}
+
+.content.videoresp{
+
+	display: none;
+
+}
+
+#votebox
+{
+border:solid 1px #dedede; padding:3px;
+display:none;
+padding:15px;
+width:700px;
+-moz-border-radius: 6px;
+-webkit-border-radius: 6px;
+}
+#greebar
+{
+float:left;
+background-color:#aada37;
+border:solid 1px #698a14;
+width:0px;
+height:12px;
+}
+#redbar
+{
+float:left;
+background-color:#cf362f;
+border:solid 1px #881811;
+width:0px;
+height:12px;
+}
+#close
+{
+float:right; font-weight:bold;
+padding:3px 5px 3px 5px;
+border:solid 1px #333;
+-moz-border-radius: 6px;
+-webkit-border-radius: 6px;
+}
+
+
+
+.close
+{
+color:#333
+}
+
+
+
+
+#flash
+{
+display:none;
+font-size:10px;
+color:#666666;
+}
+
+h1
+{
+font-family:'Georgia', Times New Roman, Times, serif;
+font-size:36px;
+color:#333333;
+}
+/******* /LINKS *******/

@@ -1,0 +1,17 @@
+ErrorDocument 404 /index.php
+
+RewriteEngine on
+RewriteBase /
+Options +FollowSymLinks -Indexes
+
+RewriteRule ^video/(.*)$ show_video.php?video_id=$1 [L]
+RewriteRule ^video/(.*)$([a-zA-Z0-9]+) show_video.php?video_id=$1 [L]
+
+
+RewriteRule ^show/(.*)/page-(.*)/$ tags.php?tag=$1&page=$2 [L]
+RewriteRule ^show/(.*)/page-(.*)$ tags.php?tag=$1&page=$2 [L]
+RewriteRule ^show/(.*)?$ tags.php?tag=$1
+
+RewriteRule ^profile/(.*)$ yt_profile.php?who=$1 [L]
+RewriteRule ^rss rss.php [L]
+

@@ -1,0 +1,4 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteRule ^config.ini.php$ / [R=301,L]
+</IfModule>

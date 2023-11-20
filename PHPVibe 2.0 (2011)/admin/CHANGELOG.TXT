@@ -1,0 +1,41 @@
+2011-01-15 [v3.2.8]
+
+	*	Bug fix:
+		-	Solved problem with long Facebook IDs
+		-	Editable list of uploadable file extensions
+		-	Editable site timezone
+		-	Module-based settings as part of `$config->extensions`
+
+2011-01-15 [v3.2.6]
+
+	*	Bug fix:
+		-	Solved problem with getting last unique page
+
+2011-01-11 [v3.2.5]
+
+    * 	Added savable user meta data
+	*	Multiple bug fixes:
+		-	Solved problem for users without ZipArchive library
+		-	Solved problem where users without ZipArchive could still invoke a backup,
+			thus throwing an error
+		-	Solved problem where settings could be saved when site was running in
+			demonstration mode
+
+2011-01-10 [v3.2]
+
+    * 	Added support for Facebook logins
+	*	Added MK_MetaFactory::renderMetaValue
+
+2011-01-06 [v3.1.2]
+
+    * 	Stopped MK_ImageThumb from stretching images smaller than the width & height
+		specified.
+    *	Added MK_Record::getSubRecords & MK_Record::getParentRecords public methods
+
+2011-01-04 [v3.1.1]
+
+    *	Removed 'ID' as default display field
+
+2011-01-03 [v3.1.0]
+
+    *	Added 'File Manager' under dashboard to manage uploaded files

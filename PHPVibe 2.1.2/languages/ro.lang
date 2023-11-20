@@ -1,0 +1,151 @@
+<?php
+
+	/* English language configuration */
+
+	 $lang = array (
+
+	 	/* SEO / Title of Page & Descriptions */
+		
+		/* Search page */
+		
+		'show-pre-title' => "Videos for",
+		'show-aft-title' => " - Best videos!",
+        'show-desc' => "Best videos are only here!",
+
+		/* Video page */
+		
+		'video-aft-title' => " - Best quality!",
+
+		/* User profile */
+		
+		'user-aft-title' => " - Profile @ phpVibe!",
+		
+	 	/* Members page */
+		
+		'members-title' => " Our list of members!",
+		
+		/* Sidebar */
+		
+		'fb-page-link' => "http://www.facebook.com/videosoft",
+		'fb-page-connect' => "Be a Fan",
+		'fb-page-desc' => "Be one of our happy fans",
+        'tw-page-link' => "http://twitter.com/Marius_SEO",
+        'tw-page-connect' => "Follow us",
+        'tw-page-desc' => "Yeah, stalking is allowed!",
+		'rss-page-connect' => "Subscribe",
+		'rss-page-desc' => "Get fresh videos on your e-mail!",
+     
+	 
+	   /* Video page*/
+	   
+	   'embed' => "Embed video",
+	   'like' => "Like",
+	   'channel' => "Channel",
+	   'channels' => "Channels",
+	   'playlist' => "Playlist",
+	   'playlists' => "Playlists",
+	   'repeat' => "Repeat",
+	   'videscription' => "Video description",
+	   'vitags' => "Related tags",
+	   'userscom' => "Users comments",
+	   'guestcom' => "Guest comments",
+	   'featured' => "Featured videos",
+	   'browse' => "Browse videos",
+
+       /* Profile page*/
+	   
+	   'addf' => "Add as Friend",
+	   'addf0' => "Already Friends",
+	   'aboutme' => "About",
+	   'wall' => "Wall",
+	    'website' => "Personal Website",
+	   'friends' => "Friends",
+	   'videos' => "Videos",
+	   'likes' => "Likes",
+	   'rname' => "Name",
+	   'dname' => "Display Name",
+	   'membersince' => "Member since",
+	   'ccity' => "Current city",
+	   'fromcity' => "From",
+	   'gender' => "Gender",
+	   'birthdate' => "Birth date",
+	   'laston' => "Last online",
+	   'relation' => "Relationship status",
+	   'favquote' => "Favourite Quote",
+	   'favmusic' => "Music I like",
+	   'favmovies' => "Movies liked",
+	   'favtv' => "Favourite TV Shows",
+	   'status-share' => "Share a video or status",
+	   'uinfo' => "Profile information",
+	   'friend-req' => "Friendship requests",
+	   'no-friend-req' => "No friend requests for now. Maybe you should be more active ;)",
+	   'v-likes' => "Video wall",
+	   'liked' => "liked",
+	   
+	   
+	   
+	   
+	   
+	   
+    /*  Common shared Language Settings  */
+	'home' => "Home",
+    'members' => "Members",
+	'my-likes' => "My Likes",
+	'messages' => "Messages",
+    'send-msg' => "Send Message",
+	'inbox' => "Inbox",
+	'outbox' => "Outbox",
+	'drafts' => "Drafts",
+	'most-liked' => "Most Liked",
+	'most-viewed' => "Most Viewed",
+	'shared-videos' => "Shared Videos",
+    'suggestions' => "Suggestions",
+	'most-searched' => "Most Searched",
+	'trending-searches' => "Trending",
+	'random' => "Random",
+	'my-profile' => "My profile",
+	'view-profile' => "View profile",
+    'edit-profile' => "Edit profile",
+	'login' => "Login",
+	'twlog' => "Twitter Login",
+	'fblog' => "Facebook Login",
+	'register' => "Register",
+	'shared' => "Shared",
+	'topviews' => "Top Views",
+	'liked' => "Liked",
+	'reg-title' => "Create a new account",
+	'reg-sub' => "It's simple, and free.",
+	'login-sub' => "..and enjoy the fun.",
+    'createacc' => "Create account",
+	'fastway' => "Or choose a faster way",
+	'search-desc' => "to search videos, type and hit enter",
+ 
+	/*  Comments Language Settings  */
+    'view'           => "View all",
+    'view2'          => "comments",
+    'name'           => "Name",
+    'enterName'      => "Enter your name",
+    'mail'           => "eMail",
+    'enterMail'      => "Enter youe eMail address",
+    'enterComment'   => "Add a Comment",
+    'comment'        => "Comment",
+    'hide'           => "Hide all",
+    
+    'ilike'          => "I like this comment",
+    'youlikethis'    => "You like this",
+    'youandone'      => "You and 1 other person like this",
+    'youandxx'       => "You and XXX other people like this",
+    'onelikes'       => "1 person likes this",
+    'xxlikethis'     => "XXX people like this",
+    
+    'cid'            => "The comment ID",
+    'wassuc'         => "was successfully",
+    'deleted'        => "deleted",
+    'moderated'      => "moderated",
+		
+	  	/* Select Language */
+	  	'select-language' =>  "Language",
+	  	'pt' => "Portuguese",
+	  	'en' => "English", 
+	 );
+?>

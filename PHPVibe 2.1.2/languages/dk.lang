@@ -1,0 +1,143 @@
+<?php
+ /* Danish language configuration */
+  $lang = array (
+   /* SEO / Title of Page & Descriptions */
+  
+  /* Homepage */
+   'home-title' => "Snubii @ Snubii.com",
+  'home-desc' => "Et sted at se de bedste videoer!",
+  
+  /* Search page */
+  
+  'show-pre-title' => "Videos for",
+  'show-aft-title' => " - Bedste videoer!",
+        'show-desc' => "Bedste videoer er kun her!",
+  /* Video page */
+  
+  'video-aft-title' => " - Bedste kvalitet!",
+  /* User profile */
+  
+  'user-aft-title' => " - Profil @ phpVibe!",
+  
+   /* Members page */
+  
+  'members-title' => " Vores liste over medlemmer!",
+  
+  /* Sidebar */
+  
+  'fb-page-link' => "http://www.facebook.com/videosoft",
+  'fb-page-connect' => "Connect på Facebook",
+  'fb-page-desc' => "Vær en af ??vores glade fans",
+        'tw-page-link' => "http://twitter.com/Marius_SEO",
+        'tw-page-connect' => "Følg os på Twitter",
+        'tw-page-desc' => "Ja, er forfølgelse tilladt!",
+  'rss-page-connect' => "Abonner på RSS Feed",
+  'rss-page-desc' => "Få friske videoer på din e-mail!",
+     
+  
+    /* Video page*/
+    
+    'embed' => "Embed video",
+    'like' => "Synes godt om",
+    'repeat' => "Gentag",
+    'videscription' => "video description",
+    'vitags' => "Relaterede tags",
+    'userscom' => "Brugere kommentarer",
+    'guestcom' => "Gæst kommentarer",
+       /* Profile page*/
+    
+    'addf' => "Tilføj som ven",
+    'addf0' => "Allerede Venner",
+    'aboutme' => "Om",
+    'wall' => "Væg",
+     'website' => "Personlig Hjemmeside",
+    'friends' => "Venner",
+    'videos' => "Videoer",
+    'likes' => "Videoer bruger kan lide",
+    'rname' => "Navn",
+    'dname' => "Visningsnavn",
+    'membersince' => "Medlem siden",
+    'ccity' => "Nuværende by",
+    'fromcity' => "Fra",
+    'gender' => "Køn",
+    'birthdate' => "Fødselsdato",
+    'laston' => "Sidst online",
+    'relation' => "Parforholdsstatus",
+    'favquote' => "Favorit Citat",
+    'favmusic' => "Musik jeg kan lide",
+    'favmovies' => "Film jeg kan lide",
+    'favtv' => "Yndlings tv-shows",
+    'status-share' => "Del en video eller status",
+    'uinfo' => "Profil oplysninger",
+    'friend-req' => "Venskab anmodninger",
+    'no-friend-req' => "Ingen anmodninger om venskab for nu. Måske skulle du være mere aktiv;)",
+    'v-likes' => "video-væg",
+    'liked' => "kunne lide",
+    
+    
+    
+    
+    
+    
+    /*  Common shared Language Settings  */
+ 'home' => "Hjem",
+    'members' => "Medlemmer",
+ 'my-likes' => "Min kan lide",
+ 'messages' => "Meddelelser",
+ 'inbox' => "Indbakke",
+ 'outbox' => "Udbakke",
+ 'drafts' => "Kladder",
+ 'most-liked' => "De fleste kan lide",
+ 'most-viewed' => "Mest sete",
+ 'shared-videos' => "Delte videoer",
+    'suggestions' => "Forslag",
+ 'most-searched' => "Mest søgte",
+ 'trending-searches' => "Trending",
+ 'random' => "Tilfældige",
+ 'my-profile' => "Min profil",
+ 'view-profile' => "Vis profil",
+    'edit-profile' => "Rediger profil",
+ 'login' => "Log ind",
+ 'twlog' => "Twitter Log ind",
+ 'fblog' => "Facebook Log ind",
+ 'register' => "Tilmeld",
+ 'shared' => "Delt",
+ 'topviews' => "Top Visninger",
+ 'liked' => "Kan lide",
+ 'reg-title' => "Opret en ny konto",
+ 'reg-sub' => "Det er simpelt, og gratis.",
+ 'login-sub' => "..og nyde det sjove.",
+    'createacc' => "Opret konto",
+ 'fastway' => "Eller vælg en hurtigere måde",
+ 'search-desc' => "at søge videoer, type og tryk enter",
+ 
+ /*  Comments Language Settings  */
+    'view'           => "Vis alle",
+    'view2'          => "kommentarer",
+    'name'           => "Navn",
+    'enterName'      => "Indtast dit navn",
+    'mail'           => "Email",
+    'enterMail'      => "Indtast din e-mailadresse",
+    'enterComment'   => "Tilføj en kommentar",
+    'comment'        => "kommentar",
+    'hide'           => "Skjul alle",
+    
+    'ilike'          => "Jeg kan lide denne kommentar",
+    'youlikethis'    => "Du kan lide denne",
+    'youandone'      => "Du og 1 anden person, kan lide denne",
+    'youandxx'       => "Du og XXX andre mennesker kan lide denne",
+    'onelikes'       => "1 person kan lide denne",
+    'xxlikethis'     => "XXX kan lide denne",
+    
+    'cid'            => "Kommentaren ID",
+    'wassuc'         => "Blev med succes",
+    'deleted'        => "slettet",
+    'moderated'      => "modereret",
+  
+    /* Select Language */
+    'select-language' =>  "Vælg sprog",
+    'pt' => "Portuguese",
+    'en' => "English", 
+  'dk' => "Danmark", 
+  );
+?>

@@ -1,0 +1,130 @@
+body {
+	color: #979797;
+	font-family: "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+	background:#000 url(../images/phpvibe-background.jpg) repeat center top
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+.section-head span,
+.portfolio-box h2,
+.page-title,
+span.dropcap,
+.cite,
+.tabs ul li a {
+	color: #df2100;
+}
+
+
+
+#main-header
+{
+	color: #979797;
+	
+}
+
+.portfolio-box,
+.post-box {
+	-moz-box-shadow: 0 1px 7px #d3d3d3; 
+	-webkit-box-shadow: 0 1px 7px #d3d3d3; 
+	box-shadow: 0 1px 7px #d3d3d3; 
+}
+
+
+.sidebar-box,
+.portfolio-box,
+#portfolio-filter,
+#fullwidth,
+#archives,
+#page-404,
+#contact,
+#default-page,
+#searchform input,
+#respond input,
+#respond textarea,
+#contact-form-wrap input,
+#contact-form-wrap textarea, 
+.tabs ul li.ui-state-active a,
+pre, 
+code{
+	background-color: #ffffff;
+}
+
+
+#main-header,
+#default-page
+{
+	border-bottom: solid 4px #df2100;
+}
+
+.title-line {
+	border-bottom: solid 2px #f1f1f1;
+}
+
+
+
+.section-head span,
+#blog-posts .post .post-meta {
+	background-image: url("../images/light/section-head-pattern.png");
+}
+
+#blog-posts .blog-pagination .prev,
+#blog-posts .blog-pagination .next {
+	background-image:url("../images/light/blog-pagination.png");
+}
+
+.hover-plus {
+	background-image: url("../images/light/portfolio-black-plus.png");
+}
+
+.sidebar-box .meta-link {
+	background-image:url("../images/light/portfolio-link-light.png");
+}
+
+ul.ln-checklist li {
+	background: url("../images/light/ul-check-light.png") no-repeat 0 4px;
+}
+
+.nivo-directionNav a {
+	background-image:url("../images/light/slider-controlls.png");
+}
+
+#widget-flickr .flickr_badge_image a {
+	background-color: #e8e8e8;
+}
+
+.tabs-content {
+	border: solid 1px #e8e8e8;
+}
+
+.tabs ul li.ui-state-active a{
+	border-bottom: solid 2px #bbbbbb;
+	
+}
+
+pre, code {
+	border: solid 1px #e8e8e8;
+	border-left: solid 2px #bbbbbb;
+}
+
+.xtoggle h4{
+	background-color: #f1f1f1;
+	border: solid 1px #e8e8e8;
+}
+	
+.xtoggle .xtoggle-content{
+	border: solid 1px #e8e8e8;
+	border-top: none;
+}
+
+.xtoggle .ui-icon{
+	background: url(../images/light/xtoggle-closed.png) no-repeat;
+}
+.xtoggle .ui-state-active .ui-icon{
+	background: url(../images/light/xtoggle-opened.png) no-repeat;
+}

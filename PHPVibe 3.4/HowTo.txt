@@ -1,0 +1,32 @@
+Hello!
+Thank you for purchasing phpVibe!
+
+In order to install the CMS you will need to upload the content of the folder "CMS" to your web folder (in most cases it's called "public_html").
+IMPORTANT: Make sure the .htaccess file gets uploaded correctly and overwrites the default one on server, else all links will return not found.
+
+All simple steps: 
+
+- edit vibe_config.php and add you own database details, site adress, license key.
+- upload everything from "CMS" 
+- head to /setup (and from here everything is onscreen)
+- follow any requested write permissions printed by setup (try chmod 0777)
+- add the admin user
+- add execute permissions (via chmod) for cron.php file
+
+Once completed (you see this info in setup as well):
+- remove both /setup and a file called "hold" in root.
+- login to site
+- admin panel is at /moderator (you can rename it and redefine it in config).
+
+If you have any problems please e-mail us at office@phpvibe.com
+
+Note: This info file it's just temporary, we will release a full documentation asap! 
+
+Thank you for understanding and please any errors you find or inconveniences.
+
+Good luck creating the perfect video website!
+
+Support:
+Mail: office@phpvibe.com
+Forum: http://www.phprevolution.com/forum/
+

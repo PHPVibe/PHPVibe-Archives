@@ -1,0 +1,18 @@
+/* ------------ HEADER ------------ */
+
+	#header {
+		background-color: #B00000;
+		float: left;
+		width: 100%;
+		padding: 5px 0px 0px 0px;
+		border-bottom-width: 2px;
+		border-bottom-style: solid;
+		border-bottom-color: #bec1c3;
+		margin: 0px;
+	}
+
+/* ------------ USER PANEL (TOP RIGHT) ------------  */
+
+	#user_panel a 		{ text-decoration: none; color: #FFFFFF; font-size: 11px;}
+	#user_panel p 		{ color: #3398DB; margin: 0px; padding: 0px; text-align: right;}
+

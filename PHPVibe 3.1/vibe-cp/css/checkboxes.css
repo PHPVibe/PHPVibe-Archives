@@ -1,0 +1,90 @@
+label.checkbox span.holder{height:57px;background:url(../img/checkbox.png) 0 0 no-repeat}label.radio span.holder{height:57px;background:url(../img/radio.png) 0 0 no-repeat}label.checkbox:hover span.holder,label.radio:hover span.holder{top:-19px !important}label.checked span.holder,label.checked span.holder,label.checked:hover span.holder,label.checked:hover span.holder{top:-38px !important}label.list{display: block;margin:0 0 5px 0}label.inline{float:left;margin:0 10px 0 0}input.hiddenCheckbox{position:absolute;left:-10000px}label.prettyCheckbox span.holderWrap{display:block;float:left;position:relative;margin-right:5px;overflow:hidden}label.prettyCheckbox span.holder{display:block;position:absolute;top:0;left:0}
+.prettyCheckbox {
+  cursor: pointer;
+}
+
+label .holderWrap { padding-top: 0px }
+
+
+/* Select boxes */
+
+select {
+  cursor: pointer;
+  height: 31px;
+  line-height: 31px;
+  width: 100%;
+}
+
+.cmf-skinned-select {
+  background: url(../img/select.png) right no-repeat;
+  border: 1px solid #d9d9d9;
+  border-bottom: 1px solid #ccc;
+  border-radius: 2px;
+  margin-right: -2px;
+}
+
+.cmf-skinned-text {
+  color: #666;
+  font-family: 'Aller', 'Lucida Grande', sans-serif;
+  font-size: 12px;
+  line-height: 31px;
+  padding-left: 11px;
+}
+
+
+.customfile-input {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  height: 100px;
+  opacity: 0;
+  position: absolute;
+  z-index: 999;
+}
+
+.customfile {
+  background: url(../img/input_bg.png) repeat-x #fdfdfd;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #ccc;
+  border-radius: 2px;
+  box-shadow: 0 1px 0 #fff;
+  font-family: "Aller", "Lucida Grande", sans-serif;
+  font-size: 12px;
+  height: 30px;
+  outline: none;
+  overflow: hidden;
+  padding-left: 10px;
+  position: relative;
+  margin-bottom:10px;
+}
+
+.customfile-disabled {
+  cursor: default;
+  opacity: .5;
+}
+
+.customfile-feedback {
+  color: #999;
+  display: block;
+  line-height: 30px;
+}
+
+.customfile-feedback-populated {
+  color: #666;
+}
+
+.customfile-button {
+  background: url(../img/file_bg.png) repeat-x;
+  border-left: 1px solid #d9d9d9;
+  color: #666;
+  cursor: pointer;
+  float: right;
+  line-height: 30px;
+  padding: 0 14px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.customfile .error {
+  display: none !important;
+}

@@ -1,0 +1,148 @@
+<?php
+
+	/* German language configuration */
+
+	 $lang = array (
+
+	 	/* SEO / Title of Page & Descriptions */
+		
+		/* Homepage */
+	 	'home-title' => "phpVibe @ VideoInedit.com",
+		'home-desc' => "Die Besten Videos Im Netz!",
+		
+		/* Search page */
+		
+		'show-pre-title' => "Videos für",
+		'show-aft-title' => " - Die Besten Videos!",
+        'show-desc' => "Die Besten Videos Nur bei uns!",
+
+		/* Video page */
+		
+		'video-aft-title' => " - Die Beste qualität!",
+
+		/* User profile */
+		
+		'user-aft-title' => " - Profil @ phpVibe!",
+		
+	 	/* Members page */
+		
+		'members-title' => " Unsere mitglieder!",
+		
+		/* Sidebar */
+		
+		'fb-page-link' => "http://www.facebook.com/videosoft",
+		'fb-page-connect' => "Mit Facebook anmelden",
+		'fb-page-desc' => "Unsere Seite mit den Zufriedenen Mitgliedern",
+        'tw-page-link' => "http://twitter.com/Marius_SEO",
+        'tw-page-connect' => "Folgen sie uns bei Twitter",
+        'tw-page-desc' => "Ja,Natürlich Können sie diese Seite Teilen!",
+		'rss-page-connect' => "Mit RSS Feed folgen",
+		'rss-page-desc' => "Bekommen sie die neusten Videos per e-mail!",
+     
+	 
+	   /* Video page*/
+	   
+	   'embed' => "Video Einbetten",
+	   'like' => "Gefällt mir",
+	   'repeat' => "Wiederholen",
+	   'videscription' => "Video Beschreibung",
+	   'vitags' => "Ähnliche Tags",
+	   'userscom' => "Mitglieder Kommentare",
+	   'guestcom' => "Gast Kommentare",
+
+       /* Profile page*/
+	   
+	   'addf' => "Als Freund hinzufügen",
+	   'addf0' => "Freunde",
+	   'aboutme' => "Über mich",
+	   'wall' => "Wall",
+	    'website' => "Meine Hompage",
+	   'friends' => "Freunde",
+	   'videos' => "Videos",
+	   'likes' => "Gemögt",
+	   'rname' => "Name",
+	   'dname' => "^Mitgliedsname",
+	   'membersince' => "Mitglied seit",
+	   'ccity' => "Stadt",
+	   'fromcity' => "Von",
+	   'gender' => "Geschlecht",
+	   'birthdate' => "Geburtsdatum",
+	   'laston' => "Zuletzt online",
+	   'relation' => "Beziehungsstatus",
+	   'favquote' => "Lieblingszitat",
+	   'favmusic' => "Lieblingsmusik",
+	   'favmovies' => "Lieblingsfilme",
+	   'favtv' => "Lieblingssendungen",
+	   'status-share' => "Teile ein Video oder status",
+	   'uinfo' => "Profil information",
+	   'friend-req' => "Freunde anfragen",
+	   'no-friend-req' => "Leider derzeit keine Freundschaftsanfragen bekommen",
+	   'v-likes' => "Video wall",
+	   'liked' => "Gemögt",
+	   
+	   
+	   
+	   
+	   
+	   
+    /*  Common shared Language Settings  */
+	'home' => "Startseite",
+    'members' => "Mitglieder",
+	'my-likes' => "Ich Mag",
+	'messages' => "Nachrichten",
+	'inbox' => "Posteingang",
+	'outbox' => "Postausgang",
+	'drafts' => "Entwürfe",
+	'most-liked' => "Meist Bewertet",
+	'most-viewed' => "Meist Gesehen",
+	'shared-videos' => "Geteilte Videos",
+    'suggestions' => "Vorschläge",
+	'most-searched' => "Meist Gesucht",
+	'trending-searches' => "Trending",
+	'random' => "Zufall",
+	'my-profile' => "Mein Profil",
+	'view-profile' => "Mein Profil ansehen",
+    'edit-profile' => "Mein Profil bearbeiten",
+	'login' => "Einloggen",
+	'twlog' => "Mit Twitter einloggen",
+	'fblog' => "Mit Facebook einloggen",
+	'register' => "Tegistrieren",
+	'shared' => "Geteilte Videos",
+	'topviews' => "Meiste Aufrufe",
+	'liked' => "Gemögt",
+	'reg-title' => "Erstelle einen Neuen account",
+	'reg-sub' => "Es ist einfach, und natürlich kostenlos.",
+	'login-sub' => "..Einfach zum genissen.",
+    'createacc' => "Erstelle einen account",
+	'fastway' => "Oder einen schnellen weg nehmen",
+	'search-desc' => "Unter Millionen von Videos Suchen",
+ 
+	/*  Comments Language Settings  */
+    'view'           => "Alle Ansehen",
+    'view2'          => "Kommentare",
+    'name'           => "Name",
+    'enterName'      => "Geben sie ihren Namen ein.",
+    'mail'           => "e-mail",
+    'enterMail'      => "Geben sie ihre E-mail adresse ein.",
+    'enterComment'   => "Kommentare schreiben",
+    'comment'        => "Kommentar",
+    'hide'           => "Alle verstecken",
+    
+    'ilike'          => "Ich möge dieses Kommentar",
+    'youlikethis'    => "Du magst das",
+    'youandone'      => "Du und ein paar andere Mögen das",
+    'youandxx'       => "Du und XXX andere Mögen das",
+    'onelikes'       => "1 person mögt das",
+    'xxlikethis'     => "XXX leute mögen das",
+    
+    'cid'            => "Das Kommentar Numer",
+    'wassuc'         => "war erfolgreich",
+    'deleted'        => "gelöscht",
+    'moderated'      => "moderiert",
+		
+	  	/* Select Language */
+	  	'select-language' =>  "Sprache auswählen",
+	  	'pt' => "Portuguese",
+	  	'en' => "English", 
+	 );
+?>

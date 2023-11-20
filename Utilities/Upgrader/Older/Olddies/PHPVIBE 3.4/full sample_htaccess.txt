@@ -1,0 +1,39 @@
+WARNING: Do not copy the full file over to .htaccess
+Choose what you need
+
+Sample phpVibe rewrite:
+
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteBase /
+RewriteRule ^embed/([^/]*)/$ /embed.php?id=$1 [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)/?$ index.php?rp=$1 [L]
+</IfModule>
+
+Sample allow origins in case of infinite scroll errors
+
+<ifModule mod_headers.c>
+    Header set Access-Control-Allow-Origin: *
+</ifModule>
+
+Sample increase post and max upload sizes
+
+php_value post_max_size 30000M
+php_value upload_max_filesize 30000M
+php_value max_execution_time 20000
+php_value max_input_time 20000
+
+Sample declare video types 
+
+AddType video/mp4             .mp4
+AddType video/webm            .webm
+AddType video/ogg             .ogv
+AddType application/x-mpegurl .m3u8
+AddType video/mp2t  
+
+Sample redirect non www to www
+
+RewriteCond %{HTTP_HOST} ^domain.com
+RewriteRule (.*) http://www.domain.com/$1 [R=301,L]

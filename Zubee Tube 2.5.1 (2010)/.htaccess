@@ -1,0 +1,28 @@
+ErrorDocument 404 /index.php
+
+RewriteEngine on
+RewriteBase /
+Options +FollowSymLinks -Indexes
+
+RewriteRule ^(.*)/(.*).html$ show_video.php?video_id=$1 [L]
+
+RewriteRule ^most-viewed/nr-(.*)$ mv-md-tr.php?what=mv&nr=$1 [L]
+RewriteRule ^most-discussed/nr-(.*)$ mv-md-tr.php?what=md&nr=$1 [L]
+RewriteRule ^top-rated/nr-(.*)$ mv-md-tr.php?what=tr&nr=$1 [L]
+
+RewriteRule ^most-viewed$ mv-md-tr.php?what=mv [L]
+RewriteRule ^most-discussed$ mv-md-tr.php?what=md [L]
+RewriteRule ^top-rated$ mv-md-tr.php?what=tr [L]
+
+RewriteRule ^user/(.*)$ user.php?who=$1 [L]
+
+RewriteRule ^show-videos/(.*)/page-(.*)/$ index.php?tag=$1&page=$2 [L]
+RewriteRule ^show-videos/(.*)/page-(.*)$ index.php?tag=$1&page=$2 [L]
+RewriteRule ^show-videos/(.*)?$ index.php?tag=$1
+
+RewriteRule ^random-videos/page-(.*)/$ index.php?page=$1 [L]
+RewriteRule ^random-videos/page-(.*)$ index.php?page=$1 [L]
+RewriteRule ^random-videos/(.*)?$ index.php
+
+RewriteRule ^rss rss.php [L]
+

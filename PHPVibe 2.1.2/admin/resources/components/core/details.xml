@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<component core="1">
+	<name>Core</name>
+	<version>2.11</version>
+	<author>phpVibe</author>
+	<email>office@phpvibe.com</email>
+	<url>http://www.phpvibe.com</url>
+	<datereleased>15/02/2012</datereleased>
+</component>

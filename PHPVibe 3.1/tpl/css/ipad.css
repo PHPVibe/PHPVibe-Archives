@@ -1,0 +1,62 @@
+/* ipad */
+
+#wrapper {
+width:100%;
+}
+#header-container { 
+width: 100%; 
+margin: 0; height:auto;
+}
+.main {
+width: 760px;
+display: block;
+float:right;}
+.sidebar {
+position:relative;
+margin-left:3px;
+}
+.searchWidget { width: auto; max-width:40%;}
+.vibedropbox {display:block;}
+#logo {display:none;}
+
+.viboxes ul li, .viboxes .content,.viboxes .content .vibox-thumb,.viboxes .pluswrap ,.viboxes .subline {
+width: 170px;
+
+}
+
+.footer_wrapper {
+width: 97%;
+margin-left:15px;
+}
+.video-sidebar {
+float:none;
+display:block;
+width: 900px!important;
+margin:0 auto!important;
+}
+#main-description{
+display:none!important;
+}
+.video-main {
+float:none;
+display:block;
+width: 900px!important;
+margin:0 auto!important;
+}
+#videoplayer {
+float:none;
+display:block;
+width: 730px!important;
+margin:0 auto!important;
+}
+.emComment {
+width:48%;
+display:inline-block;
+}
+.this_video {
+width: 48%!important;
+}
+.emAddComment {
+width: 730px!important;
+margin:0 auto!important;
+}

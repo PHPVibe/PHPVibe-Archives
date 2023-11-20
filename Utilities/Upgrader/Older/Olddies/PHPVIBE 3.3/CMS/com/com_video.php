@@ -1,0 +1,77 @@
+<?php $v_id = token_id();
+//Global video weight & height
+$width = get_option('video-width');  $height = get_option('video-height'); $embedCode = '';
+//Query this video
+if($v_id > 0) { 
+$cache_name = "video-".$v_id;
+$video = $cachedb->get_row("SELECT ".DB_PREFIX."videos.*, ".DB_PREFIX."channels.cat_name as channel_name ,".DB_PREFIX."users.avatar, ".DB_PREFIX."users.name as owner, ".DB_PREFIX."users.avatar FROM ".DB_PREFIX."videos 
+LEFT JOIN ".DB_PREFIX."channels ON ".DB_PREFIX."videos.category =".DB_PREFIX."channels.cat_id LEFT JOIN ".DB_PREFIX."users ON ".DB_PREFIX."videos.user_id = ".DB_PREFIX."users.id WHERE ".DB_PREFIX."videos.`id` = '".$v_id."' limit 0,1");}
+unset($cache_name);
+if ($video) {
+//Check for local thumbs
+$video->thumb = thumb_fix($video->thumb);
+//See what embed method to use
+if($video->remote) {
+	//Check if video is remote/link
+   $vid = new Vibe_Providers($width, $height);    $embedvideo = $vid->remotevideo($video->remote);
+   } elseif($video->embed) {
+   //Check if has embed code
+	$embedvideo	=  render_video(stripslashes($video->embed));
+   } else {
+   //Embed from external video url
+   $vid = new Vibe_Providers($width, $height);    $embedvideo = $vid->getEmbedCode($video->source);
+   }
+// Canonical url
+$canonical = video_url($video->id , $video->title);   
+// SEO Filters
+function modify_title( $text ) {
+global $video;
+    return strip_tags(stripslashes($video->title));
+}
+function modify_desc( $text ) {
+global $video;
+    return _cut(strip_tags(stripslashes($video->description)), 160);
+}
+add_filter( 'phpvibe_title', 'modify_title' );
+add_filter( 'phpvibe_desc', 'modify_desc' );
+//Get next video's details
+$next = guess_next(_get('list'));
+// Percentages of likes/dis
+$likes_percent =  percent($video->liked, $video->liked + $video->disliked);
+$dislikes_percent = ($likes_percent > 0 || $video->disliked > 0)? 100 - $likes_percent : 0;
+
+//Time for design
+ the_header();
+include_once(TPL.'/video.php');
+ the_footer();
+ 
+//Track this view
+ if(is_user()) {
+ /* Look if he's watched it before*/
+  if(!has_activity('3', $video->id)) {
+ $db->query("UPDATE ".DB_PREFIX."videos SET views = views+1 WHERE id = '".$video->id."'");
+ add_activity('3', $video->id);
+ }
+ } else {
+  /* Track trough a session */
+ if(isset($_SESSION['seen']) && !empty($_SESSION['seen'])) {
+$watched_list = (array) explode(',', $_SESSION['seen']);
+if ( !in_array($video->id, $watched_list)) 	{
+$_SESSION['seen'] = $_SESSION['seen'].','.$video->id;	
+
+	}
+} else {
+	$_SESSION['seen'] = $video->id;
+   $db->query("UPDATE ".DB_PREFIX."videos SET views = views+1 WHERE id = '".$video->id."'");
+   add_activity('3', $video->id);
+}
+}
+//End tracking
+//Change last video
+$_SESSION['last-seen'] = $canonical;
+$_SESSION['last-seen-title'] = stripslashes($video->title);
+} else {
+//Oups, not found
+layout('404');
+}
+?>

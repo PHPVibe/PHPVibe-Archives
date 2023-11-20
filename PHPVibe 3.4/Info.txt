@@ -1,0 +1,4 @@
+Please refer to the forum for upgrading from 3.3 to 3.4 http://www.phprevolution.com/forum/development/manually-upgrading-from-phpvibe-3-3-to-phpvibe-3-4/
+A follow up documentation on 3.4 will be available after the New Year's break.
+Thank you for purchasing PHPVibe!
+

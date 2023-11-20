@@ -1,0 +1,44 @@
+Software : Zubee Tube 
+Version : PRO Ultra-Light
+Licence: Donationware
+Code: Open Source
+Restrictions: Do not redistribute, share or rebrand this code!
+Using: Youtube API Version 2  
+Source: http://zubeetube.com
+Support: http://zubeetube.com/forum/
+
+
+
+INSTALATION :
+
+Software requirements :
+- PHP 4/5
+- MySQL
+- Mod Rewrite Enabled
+- cURL Enabled
+
+Install process:
+
+Upload everything to you ftp .
+Create a database.
+Import database.sql in you're new database.
+Edit config.php and add you new database data and website details (!Very important).
+GOOD! Now you have installed the script!
+
+
+For problems and help reffer to http://zubeetube.com
+
+Your RSS feed is located at http://domain.com/rss.php
+
+Good luck!
+
+Check our website for PRO editions, free mods and templates or professional templates.
+
+If you wanna have an html template converted to Zubee Template, or extra functionality, pls mail us at promovareseo@yahoo.com
+
+
+
+Attention : To use our code in commercial products without our writed accept it's against the law!
+Contact us at promovareseo@yahoo.com if you're making comercial jobs using Zubee Tube platform!
+
+For custom themes and development pls reffer to Marius Patrascu (http://www.royalways.ro, PromovareSEO@yahoo.com)   
